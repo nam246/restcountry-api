@@ -98,6 +98,12 @@ const toggleMode = () => {
 
   .country-detail {
     background-color: var(--dark-mode-background);
+
+    .country-detail-wrap {
+      .detail-info {
+        color: var(--dark-mode-text);
+      }
+    }
   }
 }
 
@@ -150,6 +156,12 @@ const toggleMode = () => {
 
   .country-detail {
     background-color: var(--light-mode-background);
+
+    .country-detail-wrap {
+      .detail-info {
+        color: var(--light-mode-text);
+      }
+    }
   }
 }
 </style>
